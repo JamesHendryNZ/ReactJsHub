@@ -10,3 +10,5 @@ A tally app used to count data and make data sheets that can be saved by the use
 A later version should be able to allow for uploading and some data fitering and sanitizing.
 
 Other web apps will be connected to the main hub.
+
+This is me learning React.js
