@@ -6,6 +6,7 @@ First goals for 0.1 Beta
 A basic node.js web server
 A navigatable hub that is connected to different web applications
 A tally app used to count data and make data sheets that can be saved by the user.
+A hub containing all the tutorials and practice pages I did while tring to achieve the goals
 
 A later version should be able to allow for uploading and some data fitering and sanitizing.
 
