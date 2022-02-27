@@ -1,0 +1,21 @@
+The plan and structure of the Tally App
+
+Basic visual layout for verision 0.1
+ -------------------------- When Only one item (if items are less than 1 then add an item)
+    Tite(Can be dynamically changed)
+item (number) [upActionButton] [downactionButton] [addbutton] (delete button does't show when only 1 button)
+
+[export/save button][clear button]
+
+---------------------------- When two or more items
+    Tite(Can be dynamically changed)
+item (number) [upActionButton] [downactionButton] [add][delete]
+item (number) [upActionButton] [downactionButton] [add][delete]
+item (number) [upActionButton] [downactionButton] [add][delete]
+
+[export/save button][clear button]
+
+##################################################################
+
+When saving, have a pop-up window that saves as a file.
+Clear should run the clear function that runs at the start
