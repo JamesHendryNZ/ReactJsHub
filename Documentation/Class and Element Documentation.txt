@@ -1,0 +1,16 @@
+Class And Element Document
+
+Classes/Element
+
+TallyDisplay.js
+-------------------------
+TallyDisplay contains the UI and button click events
+The UI design is in Tally App Plan.txt
+
+Tally.js
+-------------------------------
+Tally contains the data that will be displayed and the method to save.
+as well as modification data
+
+The JSON/JavaScript object will be Tally:items[]
+                                    items ( Name: string , amount: int )
