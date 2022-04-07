@@ -13,7 +13,19 @@ Tally contains the data that will be displayed and the method to save.
 as well as modification data
 
 The JSON/JavaScript object will be Tally:items[]
-                                    items ( Name: string , amount: int )
+          items ( Name: string , amount: int )
+--------------------------------------
 ExportTally.js
+
+  showSaveAsWindow()
+    Shows Save as window to determine where to save/dowload to
+  
+    it should return a location for Export function
+
+  prepareData(tallyItems , DataType)
+    It will prepare the data for exportig based on type, for earlier verions it is just excel data 
+    
+   exportDownload(Data, location)
+    Exports/dowloads the file.
 
 Exports Tally.js as an Excel file with future versions supporting other file formats
