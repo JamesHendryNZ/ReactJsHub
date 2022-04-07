@@ -14,3 +14,6 @@ as well as modification data
 
 The JSON/JavaScript object will be Tally:items[]
                                     items ( Name: string , amount: int )
+ExportTally.js
+
+Exports Tally.js as an Excel file with future versions supporting other file formats
