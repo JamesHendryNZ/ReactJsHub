@@ -1,3 +1,11 @@
+#Node Modules Used
+
+modules may need to be installed if it doesn't work
+
+React
+React-DOM
+uuidv4
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
