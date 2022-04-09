@@ -11,6 +11,11 @@ export default function ExtraPage() {
 
   const [items, setItems] = useState();
 
+  /*
+  You will need to get your own api key from RapidAPI from https://rapidapi.com/
+  for this api It can be found at https://rapidapi.com/matchilling/api/chuck-norris
+  */
+  
   const getItems = async () => {
     const options = {
       method: 'GET',
@@ -18,7 +23,7 @@ export default function ExtraPage() {
       headers: {
         accept: 'application/json',
         'x-rapidapi-host': 'matchilling-chuck-norris-jokes-v1.p.rapidapi.com',
-        'x-rapidapi-key': '156bd03643mshb33b5514efab493p117a23jsn9d6877c5483f'
+        'x-rapidapi-key': 'Get your own api key '
       }
     };
     
